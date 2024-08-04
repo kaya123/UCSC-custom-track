@@ -1,0 +1,17 @@
+hub testHubBulkRNAseq
+shortLabel mergedBulkRNAseq
+useOneFile on
+
+genome hg38
+
+track D20_B7_WT_rev
+shortLabel D20 B7 WT rev
+longLabel D20 B7 WT reverse strand
+type bigwig
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e48cea83c4c7a2fb/display?to_ext=bigwig
+
+track D20_B7_WT_for
+shortLabel D20 B7 WT forw
+longLabel D20 B7 WT forward strand
+type bigwig
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721350b938333dd8df6b4/display?to_ext=bigwig
